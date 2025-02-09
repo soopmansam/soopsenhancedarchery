@@ -1,7 +1,7 @@
 Before you use this texure pack you need to take the file for your minecraft skin and rename it to skin.png. Put this file in the item folder under textures.     
 The file path is [ Soop's Enhanced Archery (standalone) >> assets >> minecraft >> textures >> item >> skin.png ]
 
-This is needed for the first person view to work properly. If you don't do this your arms will appear as Steve's arms instead. 
+This is needed for the first person view to work properly. If you don't do this your arms will appear as Steve's arms instead. Once you do this put the Soop's Enhanced Archery (standalone) folder into minecraft's resource packs folder.   
      
 -----------------------------------------
      
