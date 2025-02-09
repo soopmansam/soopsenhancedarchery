@@ -1,0 +1,359 @@
+{
+  "model": {
+    "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                  "type": "minecraft:condition",
+                "property": "minecraft:keybind_down",
+                "keybind": "key.sneak",
+                  "on_true": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                      "type": "minecraft:model",
+                  "model": "minecraft:compound/1pbowads",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                    },
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "entries": [
+                      {
+                        "model": {
+                        "type": "minecraft:model",
+                      "model": "minecraft:compound/1padspull0",
+                            "tints": [
+                                  {
+                                    "type": "minecraft:team",
+                                    "default": 7367009
+                                  },
+                                  {
+                                    "type": "minecraft:constant",
+                                    "value": 16315077
+                                  }
+                                ]
+                      },
+                        "threshold": 0.25
+                    },
+                      {
+                        "model": {
+                        "type": "minecraft:model",
+                      "model": "minecraft:compound/1padspull12",
+                            "tints": [
+                                  {
+                                    "type": "minecraft:team",
+                                    "default": 7367009
+                                  },
+                                  {
+                                    "type": "minecraft:constant",
+                                    "value": 16315077
+                                  }
+                                ]
+                      },
+                        "threshold": 0.35
+                      },
+                    {
+                      "model": {
+                      "type": "minecraft:model",
+                    "model": "minecraft:compound/1padspull1",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                    },
+                      "threshold": 0.50
+                    },
+                    {
+                      "model": {
+                      "type": "minecraft:model",
+                    "model": "minecraft:compound/1padspull22",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                    },
+                      "threshold": 0.70
+                    },
+                  {
+                    "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:compound/1padspull2",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                  },
+                    "threshold": 0.90
+                  }
+                ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                  "model": "minecraft:compound/1padspull01",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                         },
+                          "property": "minecraft:use_duration",
+                        "scale": 0.05
+                      },
+                    "property": "minecraft:using_item"
+                    },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "on_false": {
+                      
+                  "type": "minecraft:condition",
+                  "property": "minecraft:keybind_down",
+                  "keybind": "key.sprint",
+                    "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:compound/1pbowsprint",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                    },
+  
+                    "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:compound/1pbowhip",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+  
+                    }
+                    },
+                  "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "entries": [
+                    {
+                      "model": {
+                      "type": "minecraft:model",
+                    "model": "minecraft:compound/1phippull0",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                    },
+                      "threshold": 0.25
+                  },
+                    {
+                      "model": {
+                      "type": "minecraft:model",
+                    "model": "minecraft:compound/1phippull12",
+                          "tints": [
+                                {
+                                  "type": "minecraft:team",
+                                  "default": 7367009
+                                },
+                                {
+                                  "type": "minecraft:constant",
+                                  "value": 16315077
+                                }
+                              ]
+                    },
+                      "threshold": 0.35
+                    },
+                  {
+                    "model": {
+                    "type": "minecraft:model",
+                  "model": "minecraft:compound/1phippull1",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                  },
+                    "threshold": 0.50
+                  },
+                  {
+                    "model": {
+                    "type": "minecraft:model",
+                  "model": "minecraft:compound/1phippull22",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                  },
+                    "threshold": 0.70
+                  },
+                {
+                  "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:compound/1phippull2",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                },
+                  "threshold": 0.90
+                }
+                ],
+                      "fallback": {
+                        "type": "minecraft:model",
+                  "model": "minecraft:compound/1phippull01",
+                        "tints": [
+                              {
+                                "type": "minecraft:team",
+                                "default": 7367009
+                              },
+                              {
+                                "type": "minecraft:constant",
+                                "value": 16315077
+                              }
+                            ]
+                         },
+                          "property": "minecraft:use_duration",
+                        "scale": 0.05
+                      },
+                    "property": "minecraft:using_item"
+                  }
+                },
+              "when": "firstperson_righthand"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+          "model": "minecraft:compound/bowhip",
+                "tints": [
+                      {
+                        "type": "minecraft:team",
+                        "default": 7367009
+                      },
+                      {
+                        "type": "minecraft:constant",
+                        "value": 16315077
+                      }
+                    ]
+            },
+          "on_true": {
+          "type": "minecraft:range_dispatch",
+          "entries": [
+          {
+            "model": {
+            "type": "minecraft:model",
+          "model": "minecraft:compound/hippull1",
+                "tints": [
+                      {
+                        "type": "minecraft:team",
+                        "default": 7367009
+                      },
+                      {
+                        "type": "minecraft:constant",
+                        "value": 16315077
+                      }
+                    ]
+          },
+            "threshold": 0.65
+          },
+        {
+          "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:compound/hippull2",
+                "tints": [
+                      {
+                        "type": "minecraft:team",
+                        "default": 7367009
+                      },
+                      {
+                        "type": "minecraft:constant",
+                        "value": 16315077
+                      }
+                    ]
+        },
+          "threshold": 0.9
+        }
+        ],
+              "fallback": {
+                "type": "minecraft:model",
+          "model": "minecraft:compound/hippull0",
+                "tints": [
+                      {
+                        "type": "minecraft:team",
+                        "default": 7367009
+                      },
+                      {
+                        "type": "minecraft:constant",
+                        "value": 16315077
+                      }
+                    ]
+                 },
+                  "property": "minecraft:use_duration",
+                "scale": 0.05
+              },
+            "property": "minecraft:using_item"
+          },
+          "property": "minecraft:display_context"
+  }
+}
