@@ -6,6 +6,7 @@
 		"4": "item/fletching",
 		"particle": "item/memskintint2"
 	},
+	"gui_light":"front",
 	"elements": [
 		{
 			"from": [8.17925, 0.20285, 2.50754],

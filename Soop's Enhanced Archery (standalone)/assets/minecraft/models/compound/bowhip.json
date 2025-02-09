@@ -5,6 +5,7 @@
 		"2": "item/bowsight",
 		"particle": "item/memskintint2"
 	},
+	"gui_light":"front",
 	"elements": [
 		{
 			"from": [7.825, -2.13548, 15.50754],
